@@ -1,0 +1,10 @@
+Lab 17 runtime evidence - long-term memory
+Date: 2026-08-17
+Command: python -m src.evaluate --impl student --reuse-seeded
+
+E02 long_term PASS - Python preference
+E03 long_term PASS - benchmark report, 16:00 open loop
+E08 long_term PASS - BLUEBIRD-42, TypeScript, NestJS recency
+E09 long_term PASS - LOTUS-88, Java, Spring Boot; ORCHID-27 absent
+
+Source of truth: reports/benchmark.json and reports/benchmark.md

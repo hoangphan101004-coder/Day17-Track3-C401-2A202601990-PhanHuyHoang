@@ -1,0 +1,15 @@
+Lab 17 runtime evidence - privacy drill
+Date: 2026-08-17
+Command: python -m src.forget --user-id minh-lab17
+
+Deleting user-scoped memory for 'minh-lab17'...
+Redis keys deleted: 3
+Zep user absent: True
+Redis user keys remaining: 0
+Shared semantic KB remains intact because it stores domain knowledge, not user PII.
+
+Command: python -m src.forget --user-id minh-lab17 --verify-only
+
+Zep user absent: True
+Redis user keys remaining: 0
+Shared semantic KB remains intact because it stores domain knowledge, not user PII.

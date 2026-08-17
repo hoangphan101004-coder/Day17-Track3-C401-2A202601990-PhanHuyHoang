@@ -1,0 +1,8 @@
+Lab 17 runtime evidence - episodic memory
+Date: 2026-08-17
+Command: python -m src.evaluate --impl student --reuse-seeded
+
+E04 episodic PASS - ClientSession, concurrency=20, ASYNC-FIX-20
+E05 episodic PASS - connection churn, timeout threshold reflection
+
+Source of truth: reports/benchmark.json and reports/benchmark.md

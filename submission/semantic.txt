@@ -1,0 +1,9 @@
+Lab 17 runtime evidence - semantic memory
+Date: 2026-08-17
+Command: python -m src.evaluate --impl student --reuse-seeded
+
+E06 semantic PASS - Idempotency-Key, max-3-retries, exponential-backoff
+E11 semantic PASS - connection pooling, CONN-POOL-FIRST
+E07 mixed PASS - Python plus Idempotency-Key
+
+Source of truth: reports/benchmark.json and reports/benchmark.md
