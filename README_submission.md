@@ -18,4 +18,4 @@ Memory-enabled đạt 11/11 (100%), cao hơn no-memory 2/11 (18,2%) nhưng token
 
 E08 chứng minh fact mới theo project scope thắng fact cũ: BLUEBIRD-42 dùng TypeScript/NestJS mà không xóa lịch sử preference Python ở scope khác. E10 chứng minh sliding compaction vẫn giữ durable constraint `REVIEW-DEADLINE-1600`, Friday 16:00 dù raw turn cũ đã bị evict; buffer giữ mọi thứ nhưng token tăng tuyến tính.
 
-Minh chứng: `reports/benchmark.html`, `reports/comparison.md` và bốn log trong `submission/`.
+Minh chứng: `reports/benchmark.html`, `reports/comparison.md`, bốn ảnh PNG và log trong `submission/`.
